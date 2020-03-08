@@ -24,9 +24,9 @@
         </p>
         <div class="forms_and_contacts">
           <form action="" class="contacts__form" method="POST">
-            <input type="text" name="name" class="form-name" placeholder="Name (required)" required/>
-            <input type="email" name="email" class="form-email" placeholder="Email (required)" required/>
-            <input type="text" name="subject" class="form-subject" placeholder="Subject"/>
+            <input type="text" name="name" class="form-name" placeholder="Name (required)" required pattern="[A-Za-z]+"/>
+            <input type="email" name="email" class="form-email" placeholder="Email (required)" required  pattern="[A-Za-z0-9]+[/@][a-z]+[/.][a-z]{2,3}"/>
+            <input type="text" name="subject" class="form-subject" placeholder="Subject" "[A-Za-z]+"/>
             <textarea
               type="text"
               name="description"
@@ -65,7 +65,7 @@
 
     <footer class="footer">
       <div class="wrapper">
-          <div class="footer__wrapper">
+        <div class="footer__wrapper">
         <p class="footer__copyright">&copy; Copiright 2013</p>
         <div class="footer__socials">
           <a href="#" class="socials-logo">

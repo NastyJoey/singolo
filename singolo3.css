@@ -79,7 +79,7 @@ body {
   border-radius: 4px;
   background-color: #d6564f;
   cursor: pointer;
-  color: #fff;
+  color: #f0d8d9;
 }
 
 .btn__submit {
@@ -123,6 +123,7 @@ body {
 .contact__info {
   margin-left: 20px;
   font-size: 12px;
+  color: #f0d8d9;
 }
 
 .contact__title {
@@ -147,14 +148,13 @@ body {
   font-size: 12px;
   line-height: 21px;
   font-weight: 400;
-  color: #f0d8d9;
   padding-top: 23px;
 }
 
 .contact__links a {
   text-decoration: none;
-  color: #fff;
   padding-left: 23px;
+  color: #f0d8d9;
 }
 .contact__map {
   background: url(/singolo/assets/icons/location.png) no-repeat center left;
@@ -173,15 +173,13 @@ body {
 
 .socials-logo {
   display: inline-block;
-  padding: 3.5px 0px 0 9px;
-  width: 30px;
-  height: 30px;
-  margin-right: 6px;
+  width: 32px;
+  height: 32px;
+  margin-left: 4px;
+  padding: 6px 0 0 8px;
   border: 1px solid #666d89;
   border-radius: 50%;
 }
-
-
 
 .facebook {
   padding-left: 2px;
