@@ -12,28 +12,28 @@
     />
   </head>
   <body>
-    <header>
+    <header id="header">
       <div class="header__logo">
         <h1 class="header__logo-text">
           <a class="header__logo-link" href="#">SINGOLO</a><span class="header__logo-text--red">*</span>
         </h1>
       </div>
       <nav class="header__navigation">
-        <ul class="navigation-list">
-          <li class="navigation-list__item">
-            <a class="navigation-list__link" href="#">HOME</a>
+        <ul id="navigation" class="navigation-list">
+          <li class="navigation-list__item active">
+            <a class="navigation-list__link" href="#header">HOME</a>
           </li>
           <li class="navigation-list__item">
-            <a class="navigation-list__link" href="#">SERVICES</a>
+            <a class="navigation-list__link" href="#services">SERVICES</a>
           </li>
           <li class="navigation-list__item">
-            <a class="navigation-list__link" href="#">PORTFOLIO</a>
+            <a class="navigation-list__link" href="#portfolio">PORTFOLIO</a>
           </li>
           <li class="navigation-list__item">
-            <a class="navigation-list__link" href="#">ABOUT</a>
+            <a class="navigation-list__link" href="#about">ABOUT</a>
           </li>
           <li class="navigation-list__item">
-            <a class="navigation-list__link" href="#">CONTACT</a>
+            <a class="navigation-list__link" href="#contacts">CONTACT</a>
           </li>
         </ul>
       </nav>
@@ -65,7 +65,7 @@
         </div>
       </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
       <div class="wrapper">
         <div class="services-info">
           <p class="services__title">Our Services</p>
@@ -152,7 +152,7 @@
         </div>
       </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="wrapper">
           <h3 class="portfolio__title title">Portfolio</h3>
           <p class="portfolio__info">
@@ -243,7 +243,7 @@
         </div>
       </section>
   
-      <section class="about-us">
+      <section class="about-us" id="about">
         <div class="wrapper">
           <h3 class="about-us__title title">About Us</h3>
           <p class="about-us__info">
@@ -370,7 +370,7 @@
           </div>
         </div>
       </section>
-      <section class="contacts">
+      <section class="contacts" id="contacts">
         <div class="wrapper">
           <h3 class="contacts__title">Get a Quote</h3>
           <p class="contacts__descr">
@@ -380,12 +380,12 @@
             tortor mauris condimentum nibh.
           </p>
           <div class="forms_and_contacts">
-            <form action="" class="contacts__form" method="POST">
+            <form class="contacts__form" method="POST">
               <input type="text" name="name" class="form-name" placeholder="Name (required)" required pattern="[A-Za-z]+"/>
               <input type="email" name="email" class="form-email" placeholder="Email (required)" required  pattern="[A-Za-z0-9]+[/@][a-z]+[/.][a-z]{2,3}"/>
-              <input type="text" name="subject" class="form-subject" placeholder="Subject" "[A-Za-z]+"/>
+              <input type="text" name="subject" class="form-subject" placeholder="Subject" pattern="[A-Za-z]+"/>
               <textarea
-                type="text"
+                
                 name="description"
                 class="form-description"
                 cols="40"
@@ -408,7 +408,7 @@
                   class="contact__map"
                   >Elm St. 14/05 Lost City</a
                 ></p>
-                <p></p><a href="tel:035283318635" class="contact__phone"
+                <p><a href="tel:035283318635" class="contact__phone"
                   >03528 331 86 35
                 </a></p>
                 <p><a href="mailto:info@singolo.com" class="contact__email"
@@ -453,5 +453,7 @@
           </div>
         </div>
       </footer>
+
+      <script src="./script.js"></script>
   </body>
 </html>
