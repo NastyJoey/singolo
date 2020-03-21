@@ -68,3 +68,37 @@ portfolio.addEventListener('click', event => {
 
 // FORMS
 
+const FORM = document.querySelector('.contacts__form'),
+  SUBMIT = document.querySelector('.btn__submit'),
+  MODAL = document.querySelector('.modal__overlay'),
+  MODAL_TEXT = MODAL.querySelector('.modal__text'),
+  MODAL_BUTTON = MODAL.querySelector('.modal__btn'),
+  NAME_INPUT = document.querySelector('.form-name'),
+  EMAIL_INPUT = document.querySelector('.form-email');
+
+SUBMIT.addEventListener('click', event => {
+  event.preventDefault();
+  showModal();
+});
+
+function showModal() {
+  let subject = document.querySelector('.form-subject').value.toString();
+  let message = document.querySelector('.form-description').value.toString();
+  let text = '<p>Письмо отправлено</p>';
+
+  text += `<p>${subject ? 'Тема: ' + subject : 'Без темы'}</p>`;
+  text += `<p>${message ? 'Описание: ' + message : 'Без описания'}</p>`;
+
+  MODAL_TEXT.innerHTML = text;
+  MODAL.classList.add('modal__overlay_show');
+}
+
+function closeModal(event) {
+  if (event.target === MODAL_BUTTON || event.target === MODAL) {
+    MODAL.classList.remove('modal__overlay_show');
+    MODAL_TEXT.innerHTML = '';
+    FORM.reset();
+  }
+}
+
+MODAL.addEventListener('click', closeModal);
