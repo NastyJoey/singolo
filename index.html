@@ -12,16 +12,18 @@
     />
   </head>
   <body>
-    <header id="header">
+    <main>
+    <header id="home" class="anchor">
       <div class="header__logo">
         <h1 class="header__logo-text">
-          <a class="header__logo-link" href="#">SINGOLO</a><span class="header__logo-text--red">*</span>
+          <a class="header__logo-link" href="#home">SINGOLO</a
+          ><span class="header__logo-text--red">*</span>
         </h1>
       </div>
       <nav class="header__navigation">
         <ul id="navigation" class="navigation-list">
-          <li class="navigation-list__item active">
-            <a class="navigation-list__link" href="#header">HOME</a>
+          <li class="navigation-list__item">
+            <a class="navigation-list__link active" href="#home">HOME</a>
           </li>
           <li class="navigation-list__item">
             <a class="navigation-list__link" href="#services">SERVICES</a>
@@ -39,7 +41,7 @@
       </nav>
     </header>
 
-    <section class="slider">
+    <section class="slider anchor">
       <div class="wrapper">
         <div class="slider-images">
           <div class="slider-images__vert">
@@ -65,7 +67,7 @@
         </div>
       </div>
     </section>
-    <section class="services" id="services">
+    <section class="services anchor" id="services">
       <div class="wrapper">
         <div class="services-info">
           <p class="services__title">Our Services</p>
@@ -152,277 +154,308 @@
         </div>
       </div>
     </section>
-    <section class="portfolio" id="portfolio">
-        <div class="wrapper">
-          <h3 class="portfolio__title title">Portfolio</h3>
-          <p class="portfolio__info">
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
-            lacinia odio sem nec elit.
-          </p>
-          <nav class="portfolio__nav">
-            <ul class="portfolio__ul">
-              <li class="nav__items"><a href="#" class="nav__links">All</a></li>
-              <li class="nav__items">
-                <a href="#" class="nav__links">Web Design</a>
-              </li>
-              <li class="nav__items">
-                <a href="#" class="nav__links">Graphic Design</a>
-              </li>
-              <li class="nav__items">
-                <a href="#" class="nav__links">Artwork</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="portfolio__content">
-            <img
-              src="assets/images/portfolio/portfolio-img1.png"
-              alt="boat img"
-              class="portfolio__imgs"
-            />
-            <img
-              src="assets/images/portfolio/portfolio-img2.png"
-              alt="circle woman img"
-              class="portfolio__imgs"
-            />
-            <img
-              src="assets/images/portfolio/portfolio-img3.png"
-              alt="dark city img"
-              class="portfolio__imgs"
-            />
-            <img
-              src="assets/images/portfolio/portfolio-img4.png"
-              alt="robot img"
-              class="portfolio__imgs"
-            />
-            <img
-              src="assets/images/portfolio/portfolio-img5.png"
-              alt="rabbits img"
-              class="portfolio__imgs"
-            />
-            <img
-              src="assets/images/portfolio/portfolio-img6.png"
-              alt="portfolio img6"
-              class="portfolio__imgs"
-            />
-            <img
-              src="assets/images/portfolio/portfolio-img7.png"
-              alt="portfolio img7"
-              class="portfolio__imgs"
-            />
-            <img
-              src="assets/images/portfolio/portfolio-img8.png"
-              alt="chickens img"
-              class="portfolio__imgs"
-            />
-            <img
-              src="assets/images/portfolio/portfolio-img9.png"
-              alt="portfolio img9"
-              class="portfolio__imgs"
-            />
-            <img
-              src="assets/images/portfolio/portfolio-img10.png"
-              alt="portfolio img10"
-              class="portfolio__imgs"
-            />
-            <img
-              src="assets/images/portfolio/portfolio-img11.png"
-              alt="portfolio img11"
-              class="portfolio__imgs"
-            />
-            <img
-              src="assets/images/portfolio/portfolio-img12.png"
-              alt="portfolio img12"
-              class="portfolio__imgs"
-            />
-            <img
-              src="assets/images/portfolio/portfolio-img12.png"
-              alt="portfolio img13"
-              class="portfolio__imgs"
-            />
-          </div>
+    <section class="portfolio anchor" id="portfolio">
+      <div class="wrapper">
+        <h3 class="portfolio__title title">Portfolio</h3>
+        <p class="portfolio__info">
+          Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit.
+        </p>
+        <nav class="portfolio__nav">
+          <ul class="portfolio__ul">
+            <li class="nav__items">
+              <a href="#" id="portfolio__btn-all" class="nav__links active-btn"
+                >All</a
+              >
+            </li>
+            <li class="nav__items">
+              <a href="#" id="portfolio__btn-web" class="nav__links"
+                >Web Design</a
+              >
+            </li>
+            <li class="nav__items">
+              <a href="#" id="portfolio__btn-graphic" class="nav__links"
+                >Graphic Design</a
+              >
+            </li>
+            <li class="nav__items">
+              <a href="#" id="portfolio__btn-art" class="nav__links">Artwork</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="portfolio__content">
+          <img
+            src="assets/images/portfolio/portfolio-img1.png"
+            alt="boat img"
+            class="portfolio__imgs"
+          />
+          <img
+            src="assets/images/portfolio/portfolio-img2.png"
+            alt="circle woman img"
+            class="portfolio__imgs"
+          />
+          <img
+            src="assets/images/portfolio/portfolio-img3.png"
+            alt="dark city img"
+            class="portfolio__imgs"
+          />
+          <img
+            src="assets/images/portfolio/portfolio-img4.png"
+            alt="robot img"
+            class="portfolio__imgs"
+          />
+          <img
+            src="assets/images/portfolio/portfolio-img5.png"
+            alt="rabbits img"
+            class="portfolio__imgs"
+          />
+          <img
+            src="assets/images/portfolio/portfolio-img6.png"
+            alt="portfolio img6"
+            class="portfolio__imgs"
+          />
+          <img
+            src="assets/images/portfolio/portfolio-img7.png"
+            alt="portfolio img7"
+            class="portfolio__imgs"
+          />
+          <img
+            src="assets/images/portfolio/portfolio-img8.png"
+            alt="chickens img"
+            class="portfolio__imgs"
+          />
+          <img
+            src="assets/images/portfolio/portfolio-img9.png"
+            alt="portfolio img9"
+            class="portfolio__imgs"
+          />
+          <img
+            src="assets/images/portfolio/portfolio-img10.png"
+            alt="portfolio img10"
+            class="portfolio__imgs"
+          />
+          <img
+            src="assets/images/portfolio/portfolio-img11.png"
+            alt="portfolio img11"
+            class="portfolio__imgs"
+          />
+          <img
+            src="assets/images/portfolio/portfolio-img12.png"
+            alt="portfolio img12"
+            class="portfolio__imgs"
+          />
         </div>
-      </section>
-  
-      <section class="about-us" id="about">
-        <div class="wrapper">
-          <h3 class="about-us__title title">About Us</h3>
-          <p class="about-us__info">
-            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
-            Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
-            lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
-            tortor mauris condimentum nibh.
-          </p>
-          <div class="about-us__squad">
-            <article class="squad__member">
-              <img
-                src="assets/images/adam.png"
-                alt="member photo"
-                class="member__photo"
-              />
-              <h4 class="member__name">Adam Jensen</h4>
-              <p class="member__info">
-                Quisque luctus, quam eget molestie commodo, lacus purus cursus
-                purus, nec rutrum tellus dolor id lorem.
-              </p>
-              <div class="member__social-link">
-                <a href="#" class="socials-logo">
-                  <img
-                    src="assets/icons/socials/facebook.png"
-                    alt="facebook logo"
-                    class="facebook"
-                /></a>
-                <a href="#" class="socials-logo">
-                  <img
-                    src="assets/icons/socials/google_.png"
-                    alt="google logo"
-                    class=""
-                /></a>
-                <a href="#" class="socials-logo">
-                  <img
-                    src="assets/icons/socials/twitter.png"
-                    alt="twitter logo"
-                    class=""
-                /></a>
-                <a href="#" class="socials-logo">
-                  <img
-                    src="assets/icons/socials/linkedin.png"
-                    alt="linkedin logo"
-                    class=""
-                /></a>
-              </div>
-            </article>
-            <article class="squad__member">
-              <img
-                src="assets/images/desmond.png"
-                alt="member photo"
-                class="member__photo"
-              />
-              <h4 class="member__name">Desmond Miles</h4>
-              <p class="member__info">
-                Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam
-                laoreet, viverra lacus ut, ultrices velit.
-              </p>
-              <div class="member__social-link">
-                <a href="#" class="socials-logo">
-                  <img
-                    src="assets/icons/socials/facebook.png"
-                    alt="facebook logo"
-                    class="social-ico"
-                /></a>
-                <a href="#" class="socials-logo">
-                  <img
-                    src="assets/icons/socials/google_.png"
-                    alt="google logo"
-                    class="social-ico"
-                /></a>
-                <a href="#" class="socials-logo">
-                  <img
-                    src="assets/icons/socials/twitter.png"
-                    alt="twitter logo"
-                    class="social-ico"
-                /></a>
-                <a href="#" class="socials-logo">
-                  <img
-                    src="assets/icons/socials/linkedin.png"
-                    alt="linkedin logo"
-                    class="social-ico"
-                /></a>
-              </div>
-            </article>
-            <article class="squad__member">
-              <img
-                src="assets/images/scolari.png"
-                alt="member photo"
-                class="member__photo"
-              />
-              <h4 class="member__name">Scolara Visari</h4>
-              <p class="member__info">
-                Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis,
-                et consequat felis. Quisque condimentum.
-              </p>
-              <div class="member__social-link">
-                <a href="#" class="socials-logo">
-                  <img
-                    src="assets/icons/socials/facebook.png"
-                    alt="facebook logo"
-                    class="social-ico"
-                /></a>
-                <a href="#" class="socials-logo">
-                  <img
-                    src="assets/icons/socials/google_.png"
-                    alt="google logo"
-                    class="social-ico"
-                /></a>
-                <a href="#" class="socials-logo"> 
-                  <img
-                    src="assets/icons/socials/twitter.png"
-                    alt="twitter logo"
-                    class="social-ico"
-                /></a>
-                <a href="#" class="socials-logo">
-                  <img
-                    src="assets/icons/socials/linkedin.png"
-                    alt="linkedin logo"
-                    class="social-ico"
-                /></a>
-              </div>
-            </article>
-          </div>
+      </div>
+    </section>
+
+    <section class="about-us anchor" id="about">
+      <div class="wrapper">
+        <h3 class="about-us__title title">About Us</h3>
+        <p class="about-us__info">
+          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+          Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
+          tortor mauris condimentum nibh.
+        </p>
+        <div class="about-us__squad">
+          <article class="squad__member">
+            <img
+              src="assets/images/adam.png"
+              alt="member photo"
+              class="member__photo"
+            />
+            <h4 class="member__name">Adam Jensen</h4>
+            <p class="member__info">
+              Quisque luctus, quam eget molestie commodo, lacus purus cursus
+              purus, nec rutrum tellus dolor id lorem.
+            </p>
+            <div class="member__social-link">
+              <a href="#" class="socials-logo">
+                <img
+                  src="assets/icons/socials/facebook.png"
+                  alt="facebook logo"
+                  class="facebook"
+              /></a>
+              <a href="#" class="socials-logo">
+                <img
+                  src="assets/icons/socials/google_.png"
+                  alt="google logo"
+                  class=""
+              /></a>
+              <a href="#" class="socials-logo">
+                <img
+                  src="assets/icons/socials/twitter.png"
+                  alt="twitter logo"
+                  class=""
+              /></a>
+              <a href="#" class="socials-logo">
+                <img
+                  src="assets/icons/socials/linkedin.png"
+                  alt="linkedin logo"
+                  class=""
+              /></a>
+            </div>
+          </article>
+          <article class="squad__member">
+            <img
+              src="assets/images/desmond.png"
+              alt="member photo"
+              class="member__photo"
+            />
+            <h4 class="member__name">Desmond Miles</h4>
+            <p class="member__info">
+              Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam
+              laoreet, viverra lacus ut, ultrices velit.
+            </p>
+            <div class="member__social-link">
+              <a href="#" class="socials-logo">
+                <img
+                  src="assets/icons/socials/facebook.png"
+                  alt="facebook logo"
+                  class="social-ico"
+              /></a>
+              <a href="#" class="socials-logo">
+                <img
+                  src="assets/icons/socials/google_.png"
+                  alt="google logo"
+                  class="social-ico"
+              /></a>
+              <a href="#" class="socials-logo">
+                <img
+                  src="assets/icons/socials/twitter.png"
+                  alt="twitter logo"
+                  class="social-ico"
+              /></a>
+              <a href="#" class="socials-logo">
+                <img
+                  src="assets/icons/socials/linkedin.png"
+                  alt="linkedin logo"
+                  class="social-ico"
+              /></a>
+            </div>
+          </article>
+          <article class="squad__member">
+            <img
+              src="assets/images/scolari.png"
+              alt="member photo"
+              class="member__photo"
+            />
+            <h4 class="member__name">Scolara Visari</h4>
+            <p class="member__info">
+              Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis,
+              et consequat felis. Quisque condimentum.
+            </p>
+            <div class="member__social-link">
+              <a href="#" class="socials-logo">
+                <img
+                  src="assets/icons/socials/facebook.png"
+                  alt="facebook logo"
+                  class="social-ico"
+              /></a>
+              <a href="#" class="socials-logo">
+                <img
+                  src="assets/icons/socials/google_.png"
+                  alt="google logo"
+                  class="social-ico"
+              /></a>
+              <a href="#" class="socials-logo">
+                <img
+                  src="assets/icons/socials/twitter.png"
+                  alt="twitter logo"
+                  class="social-ico"
+              /></a>
+              <a href="#" class="socials-logo">
+                <img
+                  src="assets/icons/socials/linkedin.png"
+                  alt="linkedin logo"
+                  class="social-ico"
+              /></a>
+            </div>
+          </article>
         </div>
-      </section>
-      <section class="contacts" id="contacts">
-        <div class="wrapper">
-          <h3 class="contacts__title">Get a Quote</h3>
-          <p class="contacts__descr">
-            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
-            Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
-            lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
-            tortor mauris condimentum nibh.
-          </p>
-          <div class="forms_and_contacts">
-            <form class="contacts__form" method="POST">
-              <input type="text" name="name" class="form-name" placeholder="Name (required)" required pattern="[A-Za-z]+"/>
-              <input type="email" name="email" class="form-email" placeholder="Email (required)" required  pattern="[A-Za-z0-9]+[/@][a-z]+[/.][a-z]{2,3}"/>
-              <input type="text" name="subject" class="form-subject" placeholder="Subject" pattern="[A-Za-z]+"/>
-              <textarea
-                
-                name="description"
-                class="form-description"
-                cols="40"
-                placeholder="Describe your project in detail..."
-              ></textarea>
-              <button type="submit" class="btn__submit">Submit</button>
-            </form>
-            <article class="contact__info">
-              <h4 class="contact__title">Contact Information</h4>
-              <p class="contact__p-info">
-                Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh.
-                Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla
-                sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et
-                consequat felis.
-              </p>
-              <div class="contact__links">
-               <p><a
+      </div>
+    </section>
+    <section class="contacts anchor" id="contacts">
+      <div class="wrapper">
+        <h3 class="contacts__title">Get a Quote</h3>
+        <p class="contacts__descr">
+          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+          Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
+          tortor mauris condimentum nibh.
+        </p>
+        <div class="forms_and_contacts">
+          <form class="contacts__form" method="POST">
+            <input
+              type="text"
+              name="name"
+              class="form-name"
+              placeholder="Name (required)"
+              required
+              pattern="[A-Za-z]+"
+            />
+            <input
+              type="email"
+              name="email"
+              class="form-email"
+              placeholder="Email (required)"
+              required
+              pattern="[A-Za-z0-9]+[/@][a-z]+[/.][a-z]{2,3}"
+            />
+            <input
+              type="text"
+              name="subject"
+              class="form-subject"
+              placeholder="Subject"
+              pattern="[A-Za-z]+"
+            />
+            <textarea
+              name="description"
+              class="form-description"
+              cols="40"
+              placeholder="Describe your project in detail..."
+            ></textarea>
+            <button type="submit" class="btn__submit">Submit</button>
+          </form>
+
+          
+          
+          <article class="contact__info">
+            <h4 class="contact__title">Contact Information</h4>
+            <p class="contact__p-info">
+              Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh.
+              Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla
+              sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et
+              consequat felis.
+            </p>
+            <div class="contact__links">
+              <p>
+                <a
                   href="https://www.google.com/maps/"
                   target="_blank"
                   class="contact__map"
                   >Elm St. 14/05 Lost City</a
-                ></p>
-                <p><a href="tel:035283318635" class="contact__phone"
+                >
+              </p>
+              <p>
+                <a href="tel:035283318635" class="contact__phone"
                   >03528 331 86 35
-                </a></p>
-                <p><a href="mailto:info@singolo.com" class="contact__email"
+                </a>
+              </p>
+              <p>
+                <a href="mailto:info@singolo.com" class="contact__email"
                   >info@singolo.com</a
-                ></p>
-              </div>
-            </article>
-          </div>
+                >
+              </p>
+            </div>
+          </article>
         </div>
-      </section>
-  
-      <footer class="footer">
-        <div class="wrapper">
-          <div class="footer__wrapper">
+      </div>
+    </section>
+  </main>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__wrapper">
           <p class="footer__copyright">&copy; Copiright 2013</p>
           <div class="footer__socials">
             <a href="#" class="socials-logo">
@@ -450,10 +483,16 @@
                 class=""
             /></a>
           </div>
-          </div>
         </div>
-      </footer>
+      </div>
+    </footer>
 
-      <script src="./script.js"></script>
+    <div class="modal__overlay">
+      <div class="modal__content">
+        <div class="modal__text"></div>
+        <button class="modal__btn button-submit">OK</button>
+      </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
