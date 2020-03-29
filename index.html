@@ -13,14 +13,14 @@
     />
   </head>
   <body>
-    <main>
+    
     <header id="home" class="header">
     
 
       <div class="header__logo">
         <h1 class="header__logo-text">
-          <a class="header__logo-link" href="#home">SINGOLO</a
-          ><span class="header__logo-text--red">*</span>
+          SINGOLO
+          <span class="header__logo-text--red">*</span>
         </h1>
       </div>
 
@@ -46,9 +46,15 @@
         </ul>
       </nav>
     
-    </header>
+      <div class="burger-menu">
+        <p class="burger-icon"></p>
+        <p class="burger-icon"></p>
+        <p class="burger-icon"></p>
+    </div>
 
-    <section class="slider" id="home">
+    </header>
+  <main>
+    <section class="slider">
       <div class="slider__slides">
           <div class="slider__slide slider__slide1 slide-active">
               <div class="slide1__first-img">
@@ -84,7 +90,7 @@
   </section>
 
 
-    <section class="services anchor" id="services">
+    <section class="services" id="services">
       <div class="wrapper">
         <div class="services-info">
           <p class="services__title">Our Services</p>
@@ -171,7 +177,7 @@
         </div>
       </div>
     </section>
-    <section class="portfolio anchor" id="portfolio">
+    <section class="portfolio" id="portfolio">
       <div class="wrapper">
         <h3 class="portfolio__title title">Portfolio</h3>
         <p class="portfolio__info">
@@ -265,7 +271,7 @@
       </div>
     </section>
 
-    <section class="about-us anchor" id="about">
+    <section class="about-us" id="about">
       <div class="wrapper">
         <h3 class="about-us__title title">About Us</h3>
         <p class="about-us__info">
@@ -392,7 +398,7 @@
         </div>
       </div>
     </section>
-    <section class="contacts anchor" id="contacts">
+    <section class="contacts" id="contacts">
       <div class="wrapper">
         <h3 class="contacts__title">Get a Quote</h3>
         <p class="contacts__descr">
@@ -470,6 +476,7 @@
       </div>
     </section>
   </main>
+
     <footer class="footer">
       <div class="wrapper">
         <div class="footer__wrapper">
@@ -509,7 +516,9 @@
         <div class="modal__text"></div>
         <button class="modal__btn button-submit">OK</button>
       </div>
-
+    </div>
+    
+    <div class="overlay-none"></div>
     <script src="./script.js"></script>
   </body>
 </html>
